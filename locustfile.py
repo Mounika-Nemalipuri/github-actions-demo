@@ -5,4 +5,4 @@ class MyUser(HttpUser):
 
     @task
     def my_task(self):
-        self.client.get("/path/to/your/endpoint")
+        self.client.get("http://localhost:8089/")
